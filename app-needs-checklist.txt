@@ -1,0 +1,24 @@
+RealtorOne App - Things Needed Now
+
+1. Branding
+- Application logo
+- Primary color
+- Secondary color
+- Font style / typography
+- App icon
+- Splash screen style
+
+2. Core visual identity
+- Button style
+- Card style
+- Input field style
+- Light mode colors
+- Dark mode colors
+
+3. Signup flow
+- Finalize the 5 signup questions
+- Decide question order
+- Decide if answers affect user dashboard/personalization
+
+
+
