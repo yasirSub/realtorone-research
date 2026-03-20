@@ -1,0 +1,49 @@
+Step 1: User Completes Activity Today.This is the entry point.
+
+👉 Every time a user performs an activity, the system evaluates their status.
+
+Step 2: Check → Is This a First-Time User?
+✅ If YES:
+Set:
+Current Day = 1
+Streak = 1
+👉 Meaning : User is starting fresh from Day 1.
+
+❌ If NO : Move to next decision point 👇
+
+Step 3: Check → Did the User Miss Exactly 1 Day?
+
+✅ If YES (Continuous Behavior):
+Increment:
+Current Day + 1
+Streak + 1
+👉 Meaning : User is consistent → reward them
+
+❌ If NO : Move to next check 👇
+
+Step 4: Check → Did the User Miss More Than 1 Day?
+
+✅ If YES (Break in Consistency):
+Reset:
+Streak = 1
+Keep : Current Day unchanged
+👉 Meaning : We penalize inconsistency (streak reset).But we preserve progress (motivation stays)
+
+❌ If NO (No gap at all / same day logic): Continue normal flow
+
+Step 5: Move to Next Day in Program
+After updating logic :
+If current day = 7 → reset to Day 1
+Else → move to next day
+👉 This ensures : Continuous learning loop (Day 1 → Day 7 → repeat)
+
+Example Scenario:
+Day 1 ✅
+Day 2 ✅
+Day 3 ✅
+(User inactive for 7 days ❌)
+Comes back
+
+System Output : Current Day = 3 (unchanged)
+Streak = 1 (reset)
+Next activity → Day 4
