@@ -2,6 +2,7 @@
 2. popoup about the task and  details  actiuvity 
 3. hide pioits for user  (done)
 4. a popup for no ( so that he will se the dis advantages )
+5. Account deletion request from profile/settings (done) - API: POST /user/request-deletion, admin handles via Users page
 
 5. sending report for all activty  (evey day mail and weekly report) -
 6.  weekly report (CTA button)
@@ -46,3 +47,18 @@ Focus: Professional development
 
 
 revinow action to = consis activty 
+
+------------------------------------------------
+
+lead packate :- hot ,nurture , blocaker
+
+
+--nertuaurch list 
+--hot list 
+--blocker list
+
+
+-------------------------------------------------
+
+
+screenshoot restruction 
