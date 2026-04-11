@@ -10,6 +10,8 @@ Ubuntu 24.04.4 LTS srv1423606 ttyS0
 srv1423606 login: root 
 password : Onework@2026
 
+
+
 -----while deployed -------
 
 root@srv1423606:~# ^[[200~ssh-keygen -t ed25519 -C "vps-realtorone"~
@@ -78,15 +80,3 @@ The script is located at: `/root/realtorone/backup_manager.sh`
 
 
 flutter run -d emulator-5554 --dart-define=API_BASE_URL=http://aanantbishthealing.com/api
-
-
-
-
-
-
-
-
-
-
-
-
