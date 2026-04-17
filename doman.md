@@ -9,6 +9,10 @@ aanantbishthealing.com
 Ubuntu 24.04.4 LTS srv1423606 ttyS0
 srv1423606 login: root 
 password : Onework@2026
+-------FOR EMIAL THINGS ------------------------
+
+this is app name ;- RealtorOne 
+this is passowrd:- mshp ohwo wsja sxin
 
 
 
@@ -80,3 +84,17 @@ The script is located at: `/root/realtorone/backup_manager.sh`
 
 
 flutter run -d emulator-5554 --dart-define=API_BASE_URL=http://aanantbishthealing.com/api
+
+
+flutter run -d RZCX115BRBR --dart-define=API_BASE_URL=http://aanantbishthealing.com/api
+
+
+
+--------------
+SMTP key value
+xsmtpsib-02db8354f0ca6eaad36e846325cb8630dce7b9c647e042c8c66448702db5dd8a-MPVbsIzSuYKMG4NO
+
+
+SMTP Server :- smtp-relay.brevo.com
+Port:- 587
+Login:- a8239b001@smtp-brevo.com
